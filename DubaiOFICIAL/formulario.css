@@ -9,6 +9,7 @@
 body {
     background-image: url(docs/img/18.jpg);
     height: 100vh;
+    margin-bottom: 50px;
 }
 
 .interface {
@@ -125,28 +126,30 @@ input {
 
 .experiencias {
     text-align: center; /* Centraliza o conteúdo */
-    margin-top: 35px; /* Adiciona margem acima do input */
+    margin-top: 20px; /* Adiciona margem acima do input */
     color: #ccc; /* Cor do texto */
-    margin-left: -675px;
-    
+    margin-left: -675px; /* Move a div para a esquerda */
+   
 }
 
 .experiencias input {
-    color: white; /* Define a cor do texto como branca */
+    color: white;
     background-color: transparent;
-    width: 900px;
+    width: 975px;
     padding: 8px;
     border: 1px solid #CE7F06;
     border-radius: 5px;
     font-size: 14px;
 }
+
 .experiencias label {
-    display: block; /* Para que o label fique em uma linha separada */
-    margin-bottom: 10px; /* Adiciona margem abaixo do label */
-    color: #ccc; /* Cor do texto */
-    text-align: left; /* Alinha o texto à esquerda */
-    font-size: 14px; /* Tamanho da fonte */
+    display: block;
+    margin-bottom: 10px;
+    color: #ccc;
+    text-align: left;
+    font-size: 14px;
 }
+
 .add-btn,
 .remove-btn {
     background-color: #CE7F06;
@@ -156,10 +159,80 @@ input {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 5px; /* Espaçamento entre os botões e os inputs */
+    margin-top: 5px;
 }
 
 .add-btn:hover,
 .remove-btn:hover {
     background-color: #FFA500;
 }
+.formacoes {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 20px; /* Adiciona margem acima do input */
+    color: #ccc; /* Cor do texto */
+    margin-left: -675px; /* Move a div para a esquerda */
+   
+}
+
+.formacoes input {
+    color: white;
+    background-color: transparent;
+    width: 975px;
+    padding: 8px;
+    border: 1px solid #CE7F06;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.formacoes label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ccc;
+    text-align: left;
+    font-size: 14px;
+}
+
+.add-btnn,
+.remove-btn {
+    background-color: #CE7F06;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 5px;
+}
+
+.add-btnn:hover,
+.remove-btn:hover {
+    background-color: #FFA500;
+}
+
+
+.concluir-cadastro {
+    text-align: center;
+    margin-top: 80px; /* Adicione a margem desejada */
+    margin-left: -100%; /* Adiciona margem à esquerda */
+   
+}
+
+.concluir-cadastro button {
+    background-color: #CE7F06;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 15px 40px; /* Aumenta o padding para aumentar o tamanho do botão */
+    border-radius: 28px; /* Arredonda mais as bordas do botão */
+    font-size: 25px; /* Aumenta o tamanho do texto dentro do botão */
+    font-weight: bold; /* Deixa o texto mais grosso */
+    margin-bottom: 200px;
+}
+
+
+.concluir-cadastro button:hover {
+    background-color: #FFA500;
+}
+

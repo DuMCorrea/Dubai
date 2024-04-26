@@ -29,9 +29,13 @@ function nextQuestion(answer) {
             `;
             break;
         case 3:
-            //Podemos redirecionar o usuário para uma página de resultados ou fazer qualquer outra ação
-            alert("Você respondeu todas as perguntas!");
-            return;
+            // COLOCAR AQUI O REDIRECIONAMENTO DA PAGINA APOS RESPONDER TUDO
+            window.location.href = "formulario.html"; 
+
+            // Você pode passar as respostas para a outra página por meio de parâmetros de consulta, armazenando-as em sessionStorage ou localStorage, ou enviando-as para um servidor.
+            // Exemplo de como enviar as respostas para a outra página usando localStorage:
+            localStorage.setItem("respostas", JSON.stringify(answers));
+            break;
         default:
             break;
     }
