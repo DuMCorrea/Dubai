@@ -1,0 +1,49 @@
+/* Estilo Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+ .interface{
+    max-width: 1280px;
+    margin:  auto;
+ }
+
+.logo{
+    text-align: center;
+}
+
+.textos{
+    text-align: center;
+    color: #ccc;
+    font-family: "Goldman", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.opcoes {
+    display: flex;
+    flex-direction: column; /* Para os botões ficarem um abaixo do outro */
+    font-family: "Goldman", sans-serif;
+    align-items: center; /* Para centralizar verticalmente */
+}
+
+.opcoes button {
+    width: 300px;
+    height: 50px;
+    margin: 5px auto; /* Centralizar horizontalmente */
+    border-radius: 84px;
+    font-family: "Goldman", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background: radial-gradient(209.44% 35.83% at 50% 50%, #F2BD57 0%, #DC9833 100%);
+    cursor: pointer;
+}

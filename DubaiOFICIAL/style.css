@@ -1,0 +1,146 @@
+/* Estilo Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(docs/img/18.jpg);
+    height: 100vh;
+}
+
+.interface {
+    margin: 0 auto;
+}
+
+/* Estilo Cabeçalho */
+header {
+    padding: 0px 3%;
+    background: linear-gradient(135deg,#DC9833 0%,#FFCA64 50%,#DC9833 100%);
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Serve para alinhar os elementos do cabeçalho ao redor */
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex; /* Serve para alterar a flex para alinhar os itens horizontalmente */
+}
+
+header nav ul li {
+    font-weight: bold;
+    margin: 40px 150px; /*  Serve para adicionar espaçamento horizontal entre os itens */
+}
+header nav ul li a {
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffff; /* Muda a cor ao passar o cursor */
+  }
+
+.logo {
+    flex: 2; /* Serve para ocupar o espaço restante */
+    text-align: center; /* Serve par centralizar o conteúdo */
+    
+}
+
+
+/* MAIN */
+
+.interface2 {
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 90px;
+}
+
+.info h3{
+
+    color: white;
+    font-size: 25px;
+    font-family: "Goldman", sans-serif;
+    font-style: bold;
+    margin-top: 50px;
+    margin-right: 4%;
+}
+
+/* PARTE DA IMAGEM RAVAR */
+
+.texto {
+    position: relative; /* Para que os elementos filhos possam ser posicionados absolutamente em relação a ele */
+}
+
+.texto h1 {
+    background: linear-gradient(to right, #FFA500, #FFD700); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    font-size: 83.6px;
+    font-family: "Goldman", sans-serif;
+    font-style: bold;
+    text-align: center;
+    position: absolute;
+    top: -48px; /* Ajuste essa posição conforme necessário */
+    left: 50%; /* Para centralizar horizontalmente */
+    transform: translateX(-50%); /* Para centralizar horizontalmente */
+}
+
+.botao-preencher a {
+    display: inline-block;
+    padding: 15px 25px 15px 25px; /* CIMA DIREITA BAIXO ESQUERDA*/
+    background: linear-gradient(0deg, #E9D09C -31.25%, #CE7F06 75.63%); /* Laranja */
+    color: white;
+    text-decoration: none;
+    border-radius: 35px; /* Borda arredondada */
+    font-size: 30px;
+    font-family: "Goldman", sans-serif;
+    font-style: bold;
+    color: #000;
+    font-weight: bold;
+  }
+
+
+.aps {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    padding-bottom: 2%;
+}
+
+
+/* PARTE BOTÃO FORMULÁRIO */
+
+.botao-preencher {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -46%; /* Posiciona o botão a 3% da altura da tela a partir do topo da janela */
+    z-index: 1; /* Para garantir que o botão fique acima da imagem */
+}
+  
+
+
+

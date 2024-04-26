@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIVENDO EM DUBAI</title>
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap" rel="stylesheet">
+    <script src="formulario.js" defer></script>
+
+</head>
+<body>
+
+    <header>
+        <div class="interface">
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#interface">PÁGINA INICIAL</a></li>
+                    <li><a href="#especialidades">FORMULÁRIO</a></li>
+                    <div class="logo">
+                        <a href="#"><img src="docs/img/DubaiLOGOpretaPNG.png" alt="logo preta" width="100"></a>
+                    </div>
+                    <li><a href="#interface">EMPREGOS</a></li>
+                    <li><a href="#especialidades">MINHA CONTA</a></li>
+                </ul>
+            </nav>
+        </div><!--interface-->
+    </header>
+    
+    <main>
+        
+        <div class="titulo">
+            <h2>PREENCHA SEU CURRÍCULO ABAIXO!</h2>
+        </div>
+
+    
+        <div class="subtitulo">
+            <h3>Essa é a primeira etapa de um pré cadastro essencial<br>para conhecermos você!</h3>
+        </div>
+
+
+
+
+        <form>
+            <div class="form-esquerda">
+                <div class="pergunta">
+                    <label for="nome-completo">Seu nome completo?</label>
+                    <input type="text" id="nome-completo" placeholder="Nome completo">
+                </div>
+                <div class="pergunta">
+                    <label for="celular">Celular/Whatsapp?</label>
+                    <input type="text" id="celular" placeholder="Celular/Whatsapp">
+                </div>
+                <div class="pergunta">
+                    <label for="cep">Qual o CEP em que reside?</label>
+                    <input type="text" id="cep" placeholder="CEP">
+                </div>
+            </div>
+    
+            <div class="form-direita">
+                <div class="pergunta">
+                    <label for="email">Seu e-mail principal?</label>
+                    <input type="email" id="email" placeholder="E-mail principal">
+                </div>
+                <div class="pergunta">
+                    <label for="confirmar-email">Confirme seu e-mail?</label>
+                    <input type="email" id="confirmar-email" placeholder="Confirme seu e-mail">
+                </div>
+                <div class="pergunta">
+                    <label for="data-nascimento">Data de nascimento</label>
+                    <input type="text" id="data-nascimento" placeholder="DD/MM/AAAA">
+                </div>
+                <div class="experiencias">
+                    <label for="experiencias">Experiências profissionais - (opcional)</label>
+                    <div class="experiencia">
+                        <input type="text" id="experiencias" placeholder="Digite aqui suas experiências profissionais">
+                        <button class="add-btn">+</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+        
+
+
+
+       
+        
+
+
+        
+
+    </main>
+    
+    
+</body>
+</html>

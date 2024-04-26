@@ -1,0 +1,165 @@
+/* Estilo Geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url(docs/img/18.jpg);
+    height: 100vh;
+}
+
+.interface {
+    margin: 0 auto;
+}
+
+/* Estilo Cabeçalho */
+header {
+    padding: 0px 3%;
+    background: linear-gradient(135deg,#DC9833 0%,#FFCA64 50%,#DC9833 100%);
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Serve para alinhar os elementos do cabeçalho ao redor */
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex; /* Serve para alterar a flex para alinhar os itens horizontalmente */
+}
+
+header nav ul li {
+    font-weight: bold;
+    margin: 40px 150px; /*  Serve para adicionar espaçamento horizontal entre os itens */
+}
+header nav ul li a {
+    transition: color 0.3s;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffff; /* Muda a cor ao passar o cursor */
+  }
+
+.logo {
+    flex: 2; /* Serve para ocupar o espaço restante */
+    text-align: center; /* Serve par centralizar o conteúdo */
+    
+}
+
+/* MAIN*/
+
+.titulo {
+    text-align: center;
+    color: #CE7F06; /* Cor laranja */
+    margin-top: 50px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    font-size: 26px; /* Tamanho da fonte */
+    font-weight: bold; /* Negrito */
+    font-family: "Poppins", sans-serif; /* Fonte */
+    word-spacing: 10px;
+}
+.subtitulo {
+    text-align: center;
+    color: white; /* Cor branca */
+    margin-top: 20px; /* Espaçamento superior */
+    margin-bottom: 20px; /* Espaçamento inferior */
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: "Poppins", sans-serif; /* Fonte */
+}
+
+
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-top: 4%;
+    
+}
+
+.form-esquerda, .form-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-esquerda {
+    
+}
+
+.form-direita {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.pergunta {
+    margin-bottom: 20px;
+    color:#ccc
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    color: white; /* Define a cor do texto como branca */
+    background-color: transparent;
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #CE7F06;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.experiencias {
+    text-align: center; /* Centraliza o conteúdo */
+    margin-top: 35px; /* Adiciona margem acima do input */
+    color: #ccc; /* Cor do texto */
+    margin-left: -675px;
+    
+}
+
+.experiencias input {
+    color: white; /* Define a cor do texto como branca */
+    background-color: transparent;
+    width: 900px;
+    padding: 8px;
+    border: 1px solid #CE7F06;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.experiencias label {
+    display: block; /* Para que o label fique em uma linha separada */
+    margin-bottom: 10px; /* Adiciona margem abaixo do label */
+    color: #ccc; /* Cor do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+    font-size: 14px; /* Tamanho da fonte */
+}
+.add-btn,
+.remove-btn {
+    background-color: #CE7F06;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 5px; /* Espaçamento entre os botões e os inputs */
+}
+
+.add-btn:hover,
+.remove-btn:hover {
+    background-color: #FFA500;
+}
